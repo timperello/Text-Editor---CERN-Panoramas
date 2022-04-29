@@ -18,9 +18,18 @@ class App extends React.Component {
 
   submitChanges = () => {
     let data = this.editorRef.current.editor.getContents(true);
+
     console.log(data);
-    alert('Generated Html : \n' + data);
+
+    //alert('Generated Html : \n' + data);
   };
+
+  componentDidMount() {
+    //this.editorRef.current.props.setOptions.lang.dialogBox.videoBox.url ='AAAAAAAAAA';
+    console.log(
+      this.editorRef.current.props.setOptions.lang.dialogBox.videoBox
+    );
+  }
 
   render() {
     const { comments, submitting, value } = this.state;
@@ -42,6 +51,7 @@ class App extends React.Component {
               ['fullScreen'],
             ],
           }}
+
           //setContents="{info buttons value}"
         />
         <button onClick={this.submitChanges}>Submit changes</button>
