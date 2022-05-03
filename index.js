@@ -43,10 +43,10 @@ class App extends React.Component {
             buttonList: [
               ['undo', 'redo'],
               ['bold', 'italic', 'underline', 'align'],
-              ['horizontalRule', 'list'],
+              ['list'],
               ['fontSize', 'font'],
               ['fontColor', 'hiliteColor'],
-              ['link', 'image', 'video'],
+              ['link'],
               ['fullScreen'],
             ],
           }}
