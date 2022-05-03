@@ -18,7 +18,6 @@ class App extends React.Component {
 
   submitChanges = () => {
     let data = this.editorRef.current.editor.getContents(true);
-
     console.log(data);
 
     //alert('Generated Html : \n' + data);
@@ -26,9 +25,9 @@ class App extends React.Component {
 
   componentDidMount() {
     //this.editorRef.current.props.setOptions.lang.dialogBox.videoBox.url ='AAAAAAAAAA';
-    console.log(
+    /*console.log(
       this.editorRef.current.props.setOptions.lang.dialogBox.videoBox
-    );
+    );*/
   }
 
   render() {
