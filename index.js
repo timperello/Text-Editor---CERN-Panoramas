@@ -49,7 +49,7 @@ class App extends React.Component {
               ['link'],
               ['fullScreen'],
             ],
-            defaultStyle: 'font-family:Roboto; font-size:medium',
+            defaultStyle: 'font-family:Roboto; font-size:24px',
           }}
           //setContents="{info buttons value}"
         />
