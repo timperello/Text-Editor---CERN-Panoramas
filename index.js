@@ -49,8 +49,8 @@ class App extends React.Component {
               ['link'],
               ['fullScreen'],
             ],
+            defaultStyle: 'font-family:Arial; font-size:1.25em',
           }}
-
           //setContents="{info buttons value}"
         />
         <button onClick={this.submitChanges}>Submit changes</button>

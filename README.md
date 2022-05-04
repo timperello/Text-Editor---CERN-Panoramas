@@ -1,3 +1,3 @@
-# react-pqp2iu-fpv6kw
+# CERN Panoramas text editor
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-pqp2iu-fpv6kw)
+Here is the editor for the info buttons on Panoramas application
